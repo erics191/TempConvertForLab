@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /**
  * Create a new Java project to model temperature by storing a temperature value in Celsius.
  * Your code should be able to return the Celsius temperature as well as return it in Fahrenheit.
@@ -10,18 +12,38 @@
  */
 
 public class Main{
-    static void main() {
- //SKELETON OF WHAT IM DOING
-        // have a scanner
+    static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in); // have a scanner
 
         // hold the temps and unit
+        double temp;
+        double newTemp;
+        String unit;
 
         //ask user for a temperature
+        System.out.println("Enter the temperature: ");
+        temp = scanner.nextDouble();
 
         //ask if they want it to be converted to Celsius or Fahrenheit
+        System.out.println("Do you want to convert to Celsius of Fahrenheit? (C or F");
+        unit = scanner.next();
 
         //math portion of how to convert it
 
         //then giving the new converted temperature
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

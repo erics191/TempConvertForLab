@@ -9,3 +9,19 @@
  *      Commit 3: Addition of the Fahrenheit conversion logic and main method tests.
  */
 
+public class Main{
+    static void main() {
+ //SKELETON OF WHAT IM DOING
+        // have a scanner
+
+        // hold the temps and unit
+
+        //ask user for a temperature
+
+        //ask if they want it to be converted to Celsius or Fahrenheit
+
+        //math portion of how to convert it
+
+        //then giving the new converted temperature
+    }
+}

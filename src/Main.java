@@ -29,8 +29,12 @@ public class Main{
         unit = scanner.next();
 
         //math portion of how to convert it
+        newTemp = (unit.equals("C")) ? (temp - 32) * 5 / 9 : (temp * 9 / 5) + 32;
 
         //then giving the new converted temperature
+        System.out.printf("%.1f°%s", newTemp, unit);
+
+        scanner.close();
     }
 }
 

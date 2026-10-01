@@ -21,11 +21,11 @@ public class Main{
         String unit;
 
         //ask user for a temperature
-        System.out.println("Enter the temperature: ");
+        System.out.print("Enter the temperature: ");
         temp = scanner.nextDouble();
 
         //ask if they want it to be converted to Celsius or Fahrenheit
-        System.out.println("Do you want to convert to Celsius of Fahrenheit? (C or F");
+        System.out.print("Do you want to convert to Celsius of Fahrenheit? (C or F)");
         unit = scanner.next();
 
         //math portion of how to convert it
